@@ -1,0 +1,188 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+
+/* first section */
+
+.the-first-section {
+  padding-top: 5%;
+}
+.first-section-content-wrapper ul li a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 10px;
+}
+.second-section-content-wrpper ul li a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 10px;
+}
+
+/* second-section */
+.section-2 {
+  background-color: black;
+}
+
+.section-2 .p2 {
+  color: #86868b;
+}
+.second-section-bg-wrapper {
+  background-image: url(../images/home/iphone11-pro-bg.jpg);
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 0px 20px;
+  color: #fff;
+}
+
+/* section-three */
+
+.section-3-bg-wrapper {
+  background-image: url(../images/home/iphone11-bg.jpg);
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 65px 20px;
+}
+.section-3-content-wrapper ul li a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 10px;
+}
+
+/* section-4 */
+
+.section-4 {
+  padding-top: 50px;
+  padding-inline: 2vw;
+}
+.left ul li a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 10px;
+}
+
+.right ul li a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 10px;
+}
+.sec-4-bg-img {
+  background-image: url(../images/home/watch-series-5.jpg);
+  height: 580px;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 1vw;
+}
+.bg img {
+  margin: 10px auto;
+}
+
+.sec-4-right-side-bg-img {
+  background-image: url(../images/home/apple-card.jpg);
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+/* section-5 */
+
+.section-5-bg-left {
+  background-image: url(../images/home/apple-tv-background.jpg);
+  height: 580px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: initial;
+  width: 500px;
+}
+.section-five-left-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.upper-logo-wrapper {
+  position: absolute;
+  padding-top: 30px;
+}
+.servant {
+  position: absolute;
+  padding-top: 300px;
+}
+.trailer {
+  position: absolute;
+  padding-top: 510px;
+}
+.trailer {
+  color: #0000ee;
+}
+.trailer p::after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f144";
+  padding-left: 10px;
+}
+
+/* right-side */
+
+.section-five-right-side {
+  background-color: black;
+  padding-top: 3vw;
+  color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: initial;
+  height: 590px;
+  text-align: center;
+}
+.sec-five-bg-right {
+  background-image: url(../images/home/air-pods.jpg);
+  padding-top: 40px;
+  height: 390px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.section-five-right-side ul li a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 10px;
+}
+
+/* section six */
+
+.section-6 {
+  text-align: center;
+}
+.same-link {
+  padding-top: 30px;
+}
+.same-link ul li a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 10px;
+}
+.description p {
+  margin-bottom: 0;
+}
