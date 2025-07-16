@@ -1,15 +1,44 @@
-.section-two {
-  background-image: url("images/home/iphone11-pro-bg.jpg");
-  height: 580px;
-  background-size: initial;
-  background-position: center;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+body {
+  font-family: "montserrat", sans-serif;
+}
+
+/* header */
+.header {
+  background: black;
+  color: #fff;
+  font-weight: 200;
+  font-size: 20px;
+}
+.header ul {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin: 0 auto;
+}
+.header .headerlink ul li a {
+  text-decoration: none;
+  color: #c2bebe;
+}
+
+.header .headerlink ul li {
+  display: inline-block;
+  padding: 18px 0 18px 0;
+}
+.header .headerlink ul li a:hover {
   color: white;
 }
-.price {
-  color: gray;
-}
-.section-two a:hover {
-  color: white;
+.logolink,
+.searchlink,
+.cartlink {
+  width: 20px;
 }
 
 /* footer style */
