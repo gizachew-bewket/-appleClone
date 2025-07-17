@@ -40,6 +40,50 @@ body {
 .cartlink {
   width: 20px;
 }
+ /*section one*/
+ 
+.section-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.first-section-content p{
+    font-size: 0.85em;
+}
+.first-section-content h1{
+    font-size: 56px;
+    font-weight: 700px;
+
+}
+.first-section-content .discription{
+font-size: 2em;
+}
+    
+.link-wrapper ul li {
+    list-style: none;
+}
+
+.link-wrapper ul li a {
+    color: blue;
+
+}
+.link-wrapper ul li a:hover {
+    color: #fff;
+
+}
+.link-wrapper  ul li{
+    display:inline;
+    padding-right:  20px; 
+    font-size: larger;
+}
+.section-one{
+background: #fafafa;
+    text-align: center;
+    padding: 25px 0;
+}
+.first-section-content ul  {
+    padding: 15px 0;
+}
 
 /* footer style */
 .footer-wrapper {
