@@ -43,6 +43,23 @@ body {
 
 
 
+/* section six  */
+.section-six-left {
+  background-image: url(../images/home/macbook-pro.jpg);
+  background-position: bottom;
+  height: 580px;
+  background-repeat: no-repeat;
+}
+
+.section-six-right {
+  background-image: url(../images/home/new-ipad.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 580px;
+  background-repeat: no-repeat;
+}
+
+/* end of section six */
 /* footer style */
 .footer-wrapper {
   background-color: #f5f5f7;
